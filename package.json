@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "iconberry",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "NODE_ENV=production node scripts/build.js && cd build/iconberry && yarn",
+    "release": "NODE_ENV=production node scripts/release.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "del": "^3.0.0",
+    "fs-extra": "^5.0.0",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.4",
+    "svgo": "^1.0.4",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {}
+}
