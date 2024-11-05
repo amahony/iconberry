@@ -1,12 +1,13 @@
 {
     "name": "iconberry",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "A tool to convert SVG icons to React components",
-    "main": "index.js",
+    "main": "iconconverter.mjs",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "node iconconverter.mjs",
-        "postinstall": "node postinstall.js"
+        "postinstall": "node postinstall.js",
+        "version": "npm version patch && git push --follow-tags"
     },
     "keywords": [
         "svg",
@@ -18,7 +19,7 @@
     "license": "ISC",
     "repository": {
         "type": "git",
-        "url": "https://github.com/amahony/iconberry.git"
+        "url": "git+https://github.com/amahony/iconberry.git"
     },
     "dependencies": {
         "@svgr/core": "^5.5.0",
