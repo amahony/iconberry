@@ -18,7 +18,7 @@
     "license": "ISC",
     "repository": {
         "type": "git",
-        "url": "https://github.com/amahony/iconberry.git"
+        "url": "git+https://github.com/amahony/iconberry.git"
     },
     "dependencies": {
         "@svgr/core": "^5.5.0",
